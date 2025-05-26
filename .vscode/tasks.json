@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Rekenmachine",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "rekenmachine.cpp",
+        "calculator_class.cpp",
+        "mathematics_class.cpp",
+        "-o",
+        "rekenmachine.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Compiles rekenmachine.cpp, calculator_class.cpp en mathematics_class"
+    }
+  ]
+}
