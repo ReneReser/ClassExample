@@ -8,7 +8,7 @@
 using namespace std;
 
 Mathematics::Mathematics() {
-    cout << "Constructor aangeroepen" << endl;
+    cout << "Constructor Mathematics aangeroepen" << endl;
 }
 
 double Mathematics::OmtrekCirkel(int r) {

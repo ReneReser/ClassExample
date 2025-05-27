@@ -8,7 +8,7 @@ using namespace std;
 
 // Constructor implementatie
 Calculator::Calculator() {
-    cout << "Contructor aangeroepen " << endl;
+    cout << "Constructor Calculator aangeroepen " << endl;
 }
 
 // Implementatie van de methode tekst() van class Calculator
