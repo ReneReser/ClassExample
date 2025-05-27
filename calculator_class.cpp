@@ -1,9 +1,9 @@
 // Source file
 
-// include voor eigen header file ( #include “…” )
+// include voor eigen header file
 #include "calculator_class.h"
 
-// standaard namespace van de STL. Wanneer je die niet gebruikt std:: voor STL’s zetten
+// standaard namespace van de STL. Wanneer je die niet gebruikt std:: voor STLï¿½s zetten
 using namespace std;
 
 // Constructor implementatie

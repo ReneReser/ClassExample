@@ -5,17 +5,18 @@
 // Zo zou ik de calculator class kunnen gebruiken om meerdere soorten rekenmachines te maken. Basic, wiskunde etc
 // die dezelfde basis functies gebruiken.
 
-#include "calculator_class.h"                           // include 
+#include "mathematics_class.h"                           // include 
 #include <iostream>
 
 int main() {
-    Calculator rekenmachine;                            // rekenmachine is een object van class Calculator
+    Mathematics rekenmachine;                            // rekenmachine is een object van class Calculator
     rekenmachine.tekst();                               // aanroep methode tekst() van object rekenmachine
     int som = rekenmachine.optellen(4, 5);              // aanroep methode optellen() van object rekenmachine
     int product = rekenmachine.vermenigvuldigen(3, 7);  // aanroep methode vermenigvuldingen() van object rekenmachine
-
+    double cirkel = rekenmachine.OmtrekCirkel(2);
     std::cout << "Som: " << som << std::endl;   
     std::cout << "Product: " << product << std::endl;
+        std::cout << "Omtrek cirkel: " << cirkel << std::endl;
 
     return 0;
 }
