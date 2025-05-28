@@ -1,4 +1,18 @@
 # Dit een een rekenmachine gemaakt met classes
+
+## Rekenmachine classes
+
+```mermaid
+---
+config:
+    class:
+        hideEmptyMembersBox: true
+---
+classDiagram
+    calculator_class <|-- wiskunde_class
+    wiskunde_class <|-- rekenmachine
+```
+
 ## Calculator class
   basis functie optellen en vermenigvuldingen
 
